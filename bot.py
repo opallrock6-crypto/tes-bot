@@ -98,7 +98,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_video(
             video=open("preview.mp4", "rb"),
             caption="🎥 Preview Gratis\n"
-            "Silahkan Tunggu\n"
         )
 
     # =====================================
