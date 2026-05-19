@@ -29,9 +29,9 @@ ADMIN_ID = 1713040623
 # =========================================
 # LINK PRODUK
 # =========================================
-LINK_BASIC = "https://link-basic.com"
-LINK_PREMIUM = "https://link-premium.com"
-LINK_VIP = "https://link-vip.com"
+LINK_BASIC = "www.contohbasic"
+LINK_PREMIUM = "www.contohpremium"
+LINK_VIP = "www.contohvip"
 
 # =========================================
 # MENYIMPAN DATA ORDER USER
@@ -97,7 +97,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         await update.message.reply_video(
             video=open("preview.mp4", "rb"),
-            caption="🎥 Preview Gratis"
+            caption="🎥 Preview Gratis\n"
+            "Silahkan Tunggu\n"
         )
 
     # =====================================
@@ -184,10 +185,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Rp 50.000\n\n"
 
             "Format Konfirmasi:\n"
-            "Nama:\n"
-            "Username Telegram:\n"
             "Paket: BASIC\n"
-            "Jam Transfer:\n\n"
 
             "*Upload bukti pembayaran ke bot ini."
         )
@@ -211,10 +209,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Rp 100.000\n\n"
 
             "Format Konfirmasi:\n"
-            "Nama:\n"
-            "Username Telegram:\n"
             "Paket: PREMIUM\n"
-            "Jam Transfer:\n\n"
 
             "*Upload bukti pembayaran ke bot ini."
         )
@@ -238,10 +233,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Rp 150.000\n\n"
 
             "Format Konfirmasi:\n"
-            "Nama:\n"
-            "Username Telegram:\n"
             "Paket: VIP PRIVATE\n"
-            "Jam Transfer:\n\n"
 
             "*Upload bukti pembayaran ke bot ini."
         )
