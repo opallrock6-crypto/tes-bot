@@ -29,9 +29,9 @@ ADMIN_ID = 1713040623
 # =========================================
 # LINK PRODUK
 # =========================================
-LINK_BASIC = "www.contohbasic"
-LINK_PREMIUM = "www.contohpremium"
-LINK_VIP = "www.contohvip"
+LINK_BASIC = "https://t.me/+LyJ-fL0ZUeVmMTM1"
+LINK_PREMIUM = "https://t.me/+LyJ-fL0ZUeVmMTM1"
+LINK_VIP = "https://t.me/+LyJ-fL0ZUeVmMTM1"
 
 # =========================================
 # MENYIMPAN DATA ORDER USER
