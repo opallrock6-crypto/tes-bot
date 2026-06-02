@@ -24,7 +24,7 @@ TOKEN = os.getenv("TOKEN")
 # ID TELEGRAM ADMIN
 # DAPAT DARI @userinfobot
 # =========================================
-ADMIN_ID = 8172840050
+ADMIN_ID = 8496137364
 
 # =========================================
 # LINK PRODUK
