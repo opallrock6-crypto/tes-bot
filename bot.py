@@ -145,7 +145,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "❓ FAQ\n\n"
 
             "🎬 Apakah film bisa ditonton selamanya?\n"
-            "✅ Tergantung paket yang dipilih.\n\n"
+            "✅ Bisa di tonton selamanya dan dimana saja.\n\n"
 
             "📱 Bisa ditonton di HP?\n"
             "✅ Bisa di HP, Laptop, maupun Smart TV.\n\n"
