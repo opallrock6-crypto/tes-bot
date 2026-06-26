@@ -116,9 +116,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "🥈 PREMIUM (Per Bulan) : Rp 25.000\n"
             "✅ Bebas nonton dan download film\n"
             "✅ Update film terbaru tiap bulan\n"
-            "✅ Akses lebih lengkap\n"
+            "✅ Akses lebih lengkap\n\n"
 
-            "🥇 VIP PRIVATE (Akses selamanya): Rp 350.000\n"
+            "🥇 VIP (Akses selamanya): Rp 350.000\n"
             "✅ Akun full akses film di channel Madvid\n"
             "✅ Bebas download dan streaming\n"
             "✅ Bisa di akses di beberapa device"
