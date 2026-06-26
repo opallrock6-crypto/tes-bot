@@ -108,22 +108,20 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(
             "📦 INFORMASI PAKET\n\n"
 
-            "🥉 BASIC : Rp 50.000\n"
+            "🥉 BASIC (Per Film) : Rp 5000\n"
             "✅ Harga lebih murah\n"
-            "✅ Cocok untuk penggunaan pribadi\n"
-            "✅ Akses film & series pilihan\n\n"
+            "✅ Cocok untuk yang hanya ingin nonton 1 film\n"
+            "✅ film bebas pilih dan akan dikirim ke telegram langsung\n\n"
 
-            "🥈 PREMIUM : Rp 100.000\n"
-            "✅ Kualitas Full HD\n"
-            "✅ Update film terbaru\n"
+            "🥈 PREMIUM (Per Bulan) : Rp 25.000\n"
+            "✅ Bebas nonton dan download film\n"
+            "✅ Update film terbaru tiap bulan\n"
             "✅ Akses lebih lengkap\n"
-            "✅ Bisa login di beberapa device\n\n"
 
-            "🥇 VIP PRIVATE : Rp 150.000\n"
-            "✅ Akun private full akses\n"
-            "✅ Anti gangguan pengguna lain\n"
-            "✅ Streaming lebih nyaman\n"
-            "✅ Support prioritas"
+            "🥇 VIP PRIVATE (Akses selamanya): Rp 350.000\n"
+            "✅ Akun full akses film di channel Madvid\n"
+            "✅ Bebas download dan streaming\n"
+            "✅ Bisa di akses di beberapa device"
         )
 
     # =====================================
