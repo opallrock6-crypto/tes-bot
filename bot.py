@@ -152,7 +152,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "✅ Estimasi 1-10 menit setelah pembayaran.\n\n"
 
             "💳 Pembayaran via apa?\n"
-            "✅ QRIS.\n\n"
+            "✅ QR Gopay.\n\n"
 
             "🛒 Cara order bagaimana?\n"
             "✅ Klik menu BELI SEKARANG."
